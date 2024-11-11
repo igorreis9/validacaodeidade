@@ -8,6 +8,7 @@
 body{
     background-image: url("denied.jpeg");
     background-size: cover;
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: 0% 35%;
     color: white;
