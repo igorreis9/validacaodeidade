@@ -10,4 +10,20 @@ body{
     background-repeat: no-repeat;
     background-position: 0% 35%;
     color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.content{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: white;
+    padding: 10px;
+    width: 800px;
+    height: 500px;
+    border-radius: 12px;
+    text-align: center;
+    margin-top: 200px;
 }
