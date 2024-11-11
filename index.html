@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validação de idade</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="content">
+        <img src="https://plataformafortunetiger.com.br/wp-content/uploads/2024/10/fortune-tiger-logo1-e1730162034914.webp" alt="">
+        <h1>Olá, se importa em mostrar sua identidade?</h1>
+
+        <div class="formulario">
+            <p>Para acessar esse site, por favor, digite a sua idade: </p>
+            <input type="number" name="" id="idadeInput">
+            <button onclick="verificarIdade()">Verificar</button>
+        </div>
+    </div>
+    <script>
+        function verificarIdade() {
+            const idade = parseInt(document.getElementById("idadeInput").value);
+
+            if (idade >= 18) {
+                window.location.href = "meusite.html";
+            }
+            else {
+                window.location.href = "menor.html";
+            }
+        }
+    </script>
+
+</body>
+
+</html>
